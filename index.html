@@ -6,12 +6,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <!-- This is a comment -->
         <meta name="viewport" content="width=device-width, intial-scale=1.0" />
-        <!-- This is a comment -->
+        <!-- This is a comment 
 
             /*Note, to comment in the style section the indicators*/
             /*Repeat for all future letters*/
-
-        </style>
+-->
+       
    
         <link rel="stylesheet" href="./Assets/style.css">
         <title>Random Animal Crossing Characters</title>
@@ -27,20 +27,27 @@
             </style>
         <img src="./Assets/Animal-Crossing-Logo.png" alt="Animal Crossing Logo" width="274" height="184"/>
         <h1>Random Animal Crossing Characters</h1>
-        <h2> For now it's just animals whose names start with the letter <A></A></h2>
+        <h2> For now it's just animals whose names start with the letter A</h2>
     </header>
     <main>
         <section class="Animals-Name" id="Animals-with-A">
-            <button class="btn A">Generate an Animal whose name begins with "A"</button>
-            <!--<h2> Generate an Animal whose name begins with "A"</h2> -->
-            <img src= "./Assets/AC-house.png" width = 100px height=100px id="myPicture" alt="some inmage">
+            <button class="btn A" onclick= "SelectPicA()"
+            >Generate an Animal whose name begins with "A"</button>
+                <br><br>
+
+                <img id = "myPictureA" src="./Assets/AC-house.png">
+                <div id= "NeighborA"> Who am I?</div>
+                     
+    
         </section>
 
         </section>
 
 
     </main>
+    <script src="./Assets/script.js"></script>
     </body>
+    
 </html>
 <!--The dimensions for the animal crossing images are 100 x 100 for the portraits
 
